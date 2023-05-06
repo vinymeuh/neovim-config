@@ -3,5 +3,5 @@
 ## Installation
 
 ```text
-% git clone ~/.config/nvim https://github.com/vinymeuh/neovim-config
+git clone https://github.com/vinymeuh/neovim-config ~/.config/nvim
 ```

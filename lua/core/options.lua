@@ -9,8 +9,8 @@
 vim.opt.shortmess:append "I"    -- Disable Intro message
 
 -- General --
-vim.opt.clipboard = 'unnamedplus'   -- Use system clipboard
-vim.opt.mouse = 'a'                 -- Enable mouse support
+vim.opt.clipboard = "unnamedplus"   -- Use system clipboard
+vim.opt.mouse = "a"                 -- Enable mouse support
 vim.opt.swapfile = false            -- Don't creates wapfile
 
 -- UI --
