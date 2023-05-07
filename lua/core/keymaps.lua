@@ -6,8 +6,8 @@ local keymap = vim.keymap.set    -- shorten function name
 local opts = { silent = true }   -- default options for keymap
 
 -- leader key
-keymap('', '<Space>', '<Nop>', opts)
-vim.g.mapleader = ' '
+--keymap('', '<Space>', '<Nop>', opts)
+vim.g.mapleader = '²'
 
 -- Normal Mode (n) --
 -- windows navigation
@@ -24,3 +24,8 @@ keymap('n', '<C-S-Right>', ':vertical resize +2<CR>', opts)
 
 -- file explorer
 keymap('n', '<leader>e', ':Lex 20<cr>', opts)
+
+-- Plugins--
+-- Telescope
+keymap("n", "<leader>f", ":Telescope find_files<CR>", opts)
+
